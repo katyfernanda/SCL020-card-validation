@@ -1,15 +1,13 @@
 button {
-  background-color: #A63251;
+  background-color: #a63251;
   border: none;
-  color: white;
+  color: wheat;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
   border-radius: 8px;
-
 }
 /*barra de navegacion*/
 .menu {
@@ -17,7 +15,7 @@ button {
   grid-template-columns: 40px auto;
   background-color: #f26666;
   text-align: center;
-  
+
   font-size: 30px;
 }
 .textNav {
@@ -37,16 +35,23 @@ button {
   width: 50px;
   height: 50px;
 }
-
-/*screen1*/
-
-
-
-
+#screen1 {
+  background-color: #3a2740;
+  color: #f2efbb;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#screen1 > h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
 /*screen2*/
 
 /*footer*/
 footer {
-grid-template-columns: 40px auto auto;
+  grid-template-columns: 40px auto auto;
 }
