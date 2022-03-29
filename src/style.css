@@ -1,7 +1,6 @@
 html,
 body {
   height: 100%;
-  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -79,32 +78,37 @@ body {
 
 .friendTypes {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   text-align: center;
-  gap: 10px;
-  width: 100%;
-  max-width: 400;
   background-color: #f2efbb;
 }
 .friendTypes > div {
-  padding: 50px;
+  padding: 70px;
 }
-
-.pet {
-  position: relative;
-  top: -100px;
-  left: 83px;
+#divPet {
+  width: 100px;
+  margin-left: 100px;
 }
-
-.roma {
-  top: -100px;
-  left: 83px;
+#divRoma {
+  width: 100px;
+  margin-left: 100px;
 }
-
-.golo {
-  position: relative;
-  top: -100px;
-  left: 83px;
+#divVege {
+  width: 100px;
+  margin-left: 100px;
+}
+#divGolo {
+  width: 100px;
+  margin-left: 100px;
+}
+#divFit {
+  width: 100px;
+  margin-left: 100px;
+}
+#divCerve {
+  width: 100px;
+  margin-left: 100px;
 }
 
 #pet {
