@@ -1,3 +1,11 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   background-color: #a63251;
   border: none;
@@ -41,8 +49,6 @@ button {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 #screen1 > h1 {
   grid-column-start: 1;
@@ -54,7 +60,7 @@ button {
   text-align: center;
   font-size: 25px;
   color: black;
-  background-color: #F2EFBB;
+  background-color: #f2efbb;
   padding: 45px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -71,17 +77,15 @@ button {
   margin-bottom: 0px;
 }
 
-
 /*footer*/
 footer {
-
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
-  background-color: #F2A679;
+  background-color: #f2a679;
 }
 .socialMedia {
-text-align: right;
+  text-align: right;
 }
 #insta {
   width: 55px;
@@ -95,5 +99,3 @@ text-align: right;
   width: 50px;
   height: 50px;
 }
-
-
