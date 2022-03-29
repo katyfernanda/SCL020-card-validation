@@ -6,7 +6,7 @@ body {
   flex-direction: column;
 }
 
-button {
+.button {
   background-color: #a63251;
   border: none;
   color: wheat;
@@ -16,6 +16,9 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 8px;
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
 }
 /*barra de navegacion*/
 .menu {
@@ -36,7 +39,6 @@ button {
   grid-row-end: 2;
   margin-left: 20px;
   margin-top: 30px;
-
 }
 .logo img {
   width: 50px;
@@ -76,11 +78,21 @@ button {
   margin-bottom: 0px;
 }
 
-
 .friendTypes {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
+/* screen3*/
+#cardNumber {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 /*footer*/
 footer {
   display: grid;
