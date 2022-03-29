@@ -83,19 +83,18 @@ body {
   grid-template-columns: 400px 400px 400px;
   text-align: center;
   gap: 10px;
-  width: 100%
-  max-width: 400
-  background-color: #F2EFBB;
-
+  width: 100%;
+  max-width: 400;
+  background-color: #f2efbb;
 }
 .friendTypes > div {
   padding: 50px;
 }
 
 .pet {
-position: relative;
-top: -100px;
-left: 83px;
+  position: relative;
+  top: -100px;
+  left: 83px;
 }
 
 .roma {
