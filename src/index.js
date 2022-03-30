@@ -1,5 +1,8 @@
 import validator from './validator.js';
+
 document.getElementById("screen2").style.display = "none";
+document.getElementById("screen3").style.display = "none";
+//document.getElementById("screen4").style.display = "none";//
 
 //screen1//
 const getIn = document.getElementById("getIn");
@@ -13,15 +16,10 @@ alert("Serás redireccionado a Google");
 window.location.assign("https://www.google.com");
 });
 
-
-
-
-
-
-
 //screen3//
 const btnValidar = document.getElementById("validar");
 btnValidar.addEventListener("click", (event)=> {
+    validator('este es la funcion validar de mi validator')
     event.preventDefault();
     const number = document.getElementById("number").value;
    if (number.length < 16){
@@ -36,4 +34,4 @@ btnValidar.addEventListener("click", (event)=> {
 
 
 
-console.log(validator);
+
