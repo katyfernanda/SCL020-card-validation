@@ -1,5 +1,8 @@
 import validator from './validator.js';
+
 document.getElementById("screen2").style.display = "none";
+document.getElementById("screen3").style.display = "none";
+//document.getElementById("screen4").style.display = "none";//
 
 
 //screen1//
@@ -23,7 +26,7 @@ divPet.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
-})
+});
 
 const divRoma = document.getElementById("divRoma");
 divRoma.addEventListener("click" , ()=> {
@@ -32,7 +35,7 @@ divRoma.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
-})
+});
 
 const divVege = document.getElementById("divVege");
 divVege.addEventListener("click" , ()=> {
@@ -41,7 +44,7 @@ divVege.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
-})
+});
 
 const divGolo = document.getElementById("divGolo");
 divGolo.addEventListener("click" , ()=> {
@@ -59,7 +62,7 @@ divFit.addEventListener("click" , ()=> {
     document.getElementById("divVege").style.display = "none";
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
-})
+});
 
 const divCerve = document.getElementById("divCerve");
 divCerve.addEventListener("click" , ()=> {
@@ -68,10 +71,10 @@ divCerve.addEventListener("click" , ()=> {
     document.getElementById("divVege").style.display = "none";
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
-})
+});
 
 //Hiding Ul tag (id="cardDescription") and strong tag//
-document.getElementByClass("cardDescription").style.display = "none";
+document.getElementByClassName("cardDescription").style.display = "none";
 
 
 
@@ -79,6 +82,7 @@ document.getElementByClass("cardDescription").style.display = "none";
 //screen3//
 const btnValidar = document.getElementById("validar");
 btnValidar.addEventListener("click", (event)=> {
+    validator('este es la funcion validar de mi validator')
     event.preventDefault();
     const number = document.getElementById("number").value;
    if (number.length < 16){
@@ -93,4 +97,4 @@ btnValidar.addEventListener("click", (event)=> {
 
 
 
-console.log(validator);
+
