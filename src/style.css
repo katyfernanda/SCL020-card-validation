@@ -77,75 +77,43 @@ body {
 }
 
 .friendTypes {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:space-between;
+  padding: 50px;
   background-color: #f2efbb;
 }
+
 .friendTypes > div {
-  padding: 70px;
+  width: 300px;
+  padding: 50px;
+  
 }
-#divPet {
+.screen2img {
   width: 100px;
-  margin-left: 100px;
-}
-#divRoma {
-  width: 100px;
-  margin-left: 100px;
-}
-#divVege {
-  width: 100px;
-  margin-left: 100px;
-}
-#divGolo {
-  width: 100px;
-  margin-left: 100px;
-}
-#divFit {
-  width: 100px;
-  margin-left: 100px;
-}
-#divCerve {
-  width: 100px;
-  margin-left: 100px;
+  height: 100px;
+  position: relative;
+  padding: 20px 80px 20px 80px;
 }
 
-#pet {
-  width: 100px;
+.friendTypes > div > ul {
+  width: 190px;
   height: 100px;
-  position: relative;
-  top: 30px;
 }
-#roma {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
+.titleCard {
+  padding-left: 100px;
 }
-#vege {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
+
+#titleVege {
+  padding-left: 90px;
 }
-#golo {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
+
+#titleFit {
+  padding-left: 106px;
 }
-#fit {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
-}
-#cerve {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 30px;
+#titleCerve {
+  padding-left: 90px;
 }
 
 /* screen3*/
