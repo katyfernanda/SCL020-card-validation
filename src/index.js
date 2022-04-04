@@ -73,7 +73,7 @@ divCerve.addEventListener("click" , ()=> {
     document.getElementById("divFit").style.display = "none";
 });
 
-//Hiding Ul tag (id="cardDescription") and strong tag//
+//Hiding Ul tag (class="cardDescription") and strong tag//
 document.getElementByClassName("cardDescription").style.display = "none";
 
 
