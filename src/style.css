@@ -147,13 +147,14 @@ body {
   margin: 0 auto;
   display: flex;
 }
-.col-25 {
+
+.col-40 {
   float: left;
-  width: 30%;
+  width: 40%;
   margin-top: 6px;
   text-align: left;
 }
-.col-75 {
+.col-60 {
   float: left;
   width: 60%;
   margin: 0 auto;
