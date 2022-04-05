@@ -1,4 +1,4 @@
-//import validator from './validator.js';//
+import validator from './validator.js';
 
 document.getElementById("screen2").style.display = "none";
 document.getElementById("screen3").style.display = "none";
@@ -100,7 +100,7 @@ btnValidar.addEventListener("click", (event)=> {
    }else if(number.length > 16){
        alert("¡¡Te pasaste!! El máximo de números a ingresar por tarjeta es de 16")
    } else{
-   console.log(number)}
+   validator.isValid(number)}
   document.getElementById("screen4").style.display = "block";
    
 });

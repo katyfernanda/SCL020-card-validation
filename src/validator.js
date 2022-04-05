@@ -1,8 +1,11 @@
 const validator = {
   isValid:(number)=>{
-    console.log(number)
+    console.log(number) 
 
   },
+  maskify:(number)=>{
+
+  }
 
 }
 
