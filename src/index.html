@@ -9,7 +9,7 @@
      <!--Navbar -->
     <header>
       <nav class="menu">   
-          <a class="logo"><img  src="png/logoRegaloExpress.png"  href="index.html"></a>
+          <a class="logo" href="index.html"><img  src="png/logoRegaloExpress.png"></a>
           <div class="textNav">
           <p>Regalo Express</p>
           <p>El mejor regalo para tu mejor amigo</p>    
@@ -21,15 +21,17 @@
 
       <!--Sreen 1 -->
       <div id="screen1">
-        <h1>Para ingresar a comprar debes ser mayor de 18 años.</h1>     
-          <div>
+        <h1>Para ingresar a comprar debes ser mayor de 18 años.</h1>  
+        <div id="filterAge"> 
+          <div class="selectAge">
             <p>Sí, tengo o soy mayor de 18 años</p>
             <button class="button" id="getIn">Entrar</button>
           </div>
-          <div>
+          <div class="selectAge"> 
             <p>Soy menor de 18 años</p>
             <button class="button" id="getOut">Salir</button>
-          </div>      
+          </div>  
+        </div>      
       </div>
 
       <!--Sreen 2 -->
@@ -109,20 +111,22 @@
 
       <!--Sreen 3 -->
       <div id="screen3">
-        <div id="options">
-           <!--acá van cada una de las opciones de compra, cada una en su propio div -->
-        </div>    
+          <!--Acá se muestra la opción seleccionada-->
           <form id="cardNumber" >
             <label for="number">Ingresa tu número de tarjeta de crédito para validarla</label>
+            <div id="inputNumber">
             <input id = "number" type="number" required>
+          </div>
             <button class="button" id="validar">Validar</button>
           </form>       
       </div>
 
       <!--Sreen 4 -->
       <div id="screen4">
+        <div id="message">
         <strong>El número de tarjeta **** **** **** 9876 es valido.</strong>
-        <form id="formGift">
+      </div>
+        <form>
           <div class="row">
             <div class="col-40">  
               <label  for="name">Ingresa el nombre de tu amigo</label>
