@@ -40,10 +40,16 @@
           hacerle un regalo? Llegaste a la pagina indicada.</p>
         <p id="question2">¿Que característica representa mejor a tu amigo?</p>
         <div class="friendTypes">
-         <div id="divPet">
-          <text class="titleCard">PetLover</text>
+          <div class="ftContainer">
+         <div id="divPet" class="ftDiv">
+           <div class="titleCard">
+          <strong>PetLover</strong>
+        </div>
+        <div class="divScreen2Img">
           <img class="screen2img" src="png/Perro.png">
-           <ul class="cardDescription" id="cardPet">
+        </div>
+        <div class="divCardDescription">
+           <ul class="cardDescription"  id="cardPet">
             <li>Cuaderno y lapiz con
               imagen con motivo de
               animales.</li>
@@ -51,50 +57,92 @@
               de animales talla estandar
               o oversize.</li>
            </ul>
-           <strong class="price">Valor $25.990</strong>
           </div>
-        <div id="divRoma">
-          <text class="titleCard">Romantic@</text> 
+         <div class="price">
+           <strong>Valor $25.990</strong>
+           </div>
+          </div>
+        <div id="divRoma" class="ftDiv">
+          <div class="titleCard">
+          <strong>Romantic@</strong>
+        </div>
+        <div class="divScreen2Img">
           <img class="screen2img" src="png/Corazon.png">
+        </div>
+        <div class="divCardDescription">
           <ul class="cardDescription" id="cardRoma">
             <li>Cuaderno y lápiz con 
               motivo de corazón.</li>
             <li>Una rosa roja.</li>
             <li>Una caja de chocolate cacao al 90% sin azúcar.</il>
           </ul>
-          <strong class="price">Valor $25.990</strong>
+          </div>
+          <div class="price">
+          <strong>Valor $25.990</strong>
+        </div>
          </div>
-        <div id="divVege">
-          <text id="titleVege">Vegetarian@</text>
+        <div id="divVege" class="ftDiv">
+        <div  class="titleCard">
+          <strong>Vegetarian@</strong>
+        </div>
+        <div class="divScreen2Img">
           <img class="screen2img" src="png/Ensalada.png">
+        </div>
+        <div class="divCardDescription">
           <ul class="cardDescription" id="cardVege">
             <li>Libro “500 recetas de
               comida Vegetariana”.</li>
             <li>Kit De Cultivos Verduras Coloridas (GrowKit).</li>
           </ul>
-          <strong class="price">Valor $25.990</strong>
+          </div>
+          <div class="price">
+          <strong>Valor $25.990</strong>
+        </div>
          </div>
-        <div id="divGolo">
-          <text class="titleCard">Golos@</text>
+        </div>
+        <div class="ftContainer">
+        <div id="divGolo" class="ftDiv">
+        <div class="titleCard">
+          <strong>Golos@</strong>
+        </div>
+        <div class="divScreen2Img">
           <img class="screen2img" src="png/Dulce.png">
+        </div>
+        <div class="divCardDescription">
           <ul class="cardDescription" id="cardGolo">
             <li>Tarro de M&M`s 1,76kg.</li>
           </ul>
-          <strong class="price">Valor $25.990</strong>
+          </div>
+          <div class="price">
+          <strong>Valor $25.990</strong>
         </div>
-        <div id="divFit">
-          <text id="titleFit">Fitness</text>
+        </div>
+        <div id="divFit" class="ftDiv">
+        <div class="titleCard">
+          <strong>Fitness</strong>
+        </div>
+      <div class="divScreen2Img">
           <img class="screen2img" src="png/Pesas.png">
+        </div>
+        <div class="divCardDescription">
           <ul class="cardDescription" id="cardFit">
             <li>Libro “Potenciando tu
               mente deportiva”.</li>
             <li>Kit fitness athletic.</li>
           </ul>
-          <strong class="price">Valor $25.990</strong>
           </div>
-        <div id="divCerve">
-          <text id="titleCerve">Cervecer@</text>
+          <div class="price">
+          <strong>Valor $25.990</strong>
+        </div>
+          </div>
+        <div id="divCerve" class="ftDiv">
+        <div class="titleCard">
+          <strong>Cervecer@</strong>
+        </div>
+        <div class="divScreen2Img">
           <img class="screen2img" src="png/Cerveza.png">
+        </div>
+        <div class="divCardDescription">
         <ul class="cardDescription" id="cardCerve">
           <li>Pack coleccionista de
             copas y vasos de cervecerías
@@ -102,21 +150,28 @@
           <li>Set 5 Cervezas Selección
             Moritz</li>
         </ul>
-        <strong class="price">Valor $25.990</strong>
-      </div>
-      </div>
+        </div>
+        <div class="price">
+        <strong>Valor $25.990</strong>
+        </div>
+       </div>
      </div>
+    </div>
+  </div>
       
 
 
       <!--Sreen 3 -->
       <div id="screen3">
+          <form id="cardNumber" >
+            <label for="number">Ingresa tu número de tarjeta de crédito para validarla.</label>
+            <input id="number" type="number" required>
           <!--Acá se muestra la opción seleccionada-->
           <form id="cardNumber" >
             <label for="number">Ingresa tu número de tarjeta de crédito para validarla</label>
             <div id="inputNumber">
             <input id = "number" type="number" required>
-          </div>
+            </div>
             <button class="button" id="validar">Validar</button>
           </form>       
       </div>
