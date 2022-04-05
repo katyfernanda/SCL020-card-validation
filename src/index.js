@@ -5,11 +5,15 @@ document.getElementById("screen3").style.display = "none";
 document.getElementById("screen4").style.display = "none";
 
 
+
 //screen1//
 const getIn = document.getElementById("getIn");
 getIn.addEventListener("click" , ()=> {
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
+    for ( let element of document.getElementsByClassName("cardDescription")){
+        element.style.display="none";
+    }
 });    
 const getOut = document.getElementById("getOut");
 getOut.addEventListener("click" , ()=> {
@@ -88,8 +92,7 @@ divCerve.addEventListener("click" , ()=> {
 
 //screen3//
 const btnValidar = document.getElementById("validar");
-btnValidar.addEventListener("click", (event)=> {
-    console.log("ok")  
+btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
     const number = document.getElementById("number").value;
    if (number.length < 16){

@@ -48,13 +48,22 @@ body {
   color: #f2efbb;
   text-align: center;
   min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+#screen1 > h1 {
+  margin-top: 0px;
+}
+
 #filterAge {
   display: flex;
   margin: 0 auto;
-  max-width: 50%;
+  justify-content: center;
 }
 .selectAge {
+  width: 50%;
+  align-content: center;
 }
 
 /*screen2*/
@@ -99,7 +108,7 @@ body {
   width: 100px;
   height: 100px;
 }
-.divScreen2Img{
+.divScreen2Img {
   display: flex;
   justify-content: center;
 }
@@ -117,11 +126,6 @@ body {
   justify-content: center;
 }
 
-.cardDescription {
-  display: none;
-
-}
-
 /* screen3*/
 #screen3 {
   background-color: #f2efbb;
@@ -132,7 +136,6 @@ body {
   display: grid;
   grid-template-columns: auto;
   text-align: center;
-  width: 100%;
   max-width: 300px;
   margin: 0 auto;
 }
