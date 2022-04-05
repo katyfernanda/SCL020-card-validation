@@ -1,8 +1,9 @@
-//import validator from './validator.js';//
+import validator from './validator.js';
 
 document.getElementById("screen2").style.display = "none";
 document.getElementById("screen3").style.display = "none";
 document.getElementById("screen4").style.display = "none";
+
 
 
 //screen1//
@@ -10,6 +11,9 @@ const getIn = document.getElementById("getIn");
 getIn.addEventListener("click" , ()=> {
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
+    for ( let element of document.getElementsByClassName("cardDescription")){
+        element.style.display="none";
+    }
 });    
 const getOut = document.getElementById("getOut");
 getOut.addEventListener("click" , ()=> {
@@ -88,16 +92,15 @@ divCerve.addEventListener("click" , ()=> {
 
 //screen3//
 const btnValidar = document.getElementById("validar");
-btnValidar.addEventListener("click", (event)=> {
-    console.log("ok")  
+btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
-    const number = document.getElementById("number").value;
-   if (number.length < 16){
+    const  creditCardNumber= document.getElementById("number").value;
+   if (creditCardNumber.length < 16){
        alert("Debes ingresar correctamente el número de tu tarjeta, si la cantidad de números es menor a 16, antepone la cantidad de 0 que necesites")
-   }else if(number.length > 16){
+   }else if(creditCardNumber.length > 16){
        alert("¡¡Te pasaste!! El máximo de números a ingresar por tarjeta es de 16")
    } else{
-   console.log(number)}
+   validator.isValid(creditCardNumber)}
   document.getElementById("screen4").style.display = "block";
    
 });
