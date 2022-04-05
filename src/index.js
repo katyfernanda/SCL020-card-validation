@@ -94,13 +94,13 @@ divCerve.addEventListener("click" , ()=> {
 const btnValidar = document.getElementById("validar");
 btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
-    const number = document.getElementById("number").value;
-   if (number.length < 16){
+    const  creditCardNumber= document.getElementById("number").value;
+   if (creditCardNumber.length < 16){
        alert("Debes ingresar correctamente el número de tu tarjeta, si la cantidad de números es menor a 16, antepone la cantidad de 0 que necesites")
-   }else if(number.length > 16){
+   }else if(creditCardNumber.length > 16){
        alert("¡¡Te pasaste!! El máximo de números a ingresar por tarjeta es de 16")
    } else{
-   validator.isValid(number)}
+   validator.isValid(creditCardNumber)}
   document.getElementById("screen4").style.display = "block";
    
 });

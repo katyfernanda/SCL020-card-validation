@@ -1,6 +1,6 @@
 const validator = {
-  isValid:(number)=>{
-    console.log(number) 
+  isValid:(creditCardNumber)=>{
+    console.log(creditCardNumber) 
 
   },
   maskify:(number)=>{
