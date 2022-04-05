@@ -79,16 +79,6 @@ divCerve.addEventListener("click" , ()=> {
     document.getElementById("cardCerve").style.display = "block";
 });
 
-//Hiding Ul tag (id="cardDescription") and strong tag//
-//for (let cardDescription of document.getElementsByClassName("cardDescription")){
-   // cardDescription.style.display="none";
-//}//
-
-//const selectedPet = document.getElementById("divPet");//
-//selectedPet.addEventListener("click", ()=> {//
-    //document.getElementById("cardPet").style.visibility = "visible";//
-//});//
-
 
 //screen3//
 const btnValidar = document.getElementById("validar");

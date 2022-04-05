@@ -122,16 +122,42 @@
       <!--Sreen 4 -->
       <div id="screen4">
         <strong>El número de tarjeta **** **** **** 9876 es valido.</strong>
-        <form>
-          <label for="name">Ingresa el nombre de tu amigo</label>
-          <input type="text" id="name" name="name"><br>
+        <form id="formGift">
+          <div class="row">
+            <div class="col-25">  
+              <label  for="name">Ingresa el nombre de tu amigo</label>
+            </div>
+            <div class="col-75">
+              <input class="sizeImput" type="text" id="name" name="name">
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-25">  
           <label for="direction">Ingresa la dirección para el envío del regalo</label>
-          <input type="text" id="direction" name="direction"><br> 
+        </div>
+        <div class="col-75">
+          <input class="sizeImput" type="text" id="direction" name="direction">
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-25"> 
           <label for="mail">Ingresa tu correo</label>
-          <input type="text" id="mail" name="mail"><br>
+        </div>
+        <div class="col-75">
+          <input class="sizeImput" type="mail" id="mail" name="mail">
+        </div>
+        </div>
+       <div class="row">
+        <div class="col-25"> 
           <label for="dateGift">Indícanos la fecha de despacho, el despacho será desde las 24 hrs. siguientes a la compra</label>
-          <input type="date" id="dateGift" name="dateGift"><br>
-          <input type="submit" value="Confirmar compra">
+        </div>
+        <div class="col-75">
+          <input class="sizeImput" type="date" id="dateGift" name="dateGift">
+        </div>
+        </div>
+        <div class="row">
+          <input class= "button" id= "confirm" type="submit" value="Confirmar compra">
+        </div>
         </form>
 
       </div>

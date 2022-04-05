@@ -82,7 +82,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content:space-between;
+  align-content: space-between;
   padding: 50px;
   background-color: #f2efbb;
 }
@@ -90,7 +90,6 @@ body {
 .friendTypes > div {
   width: 300px;
   padding: 50px;
-  
 }
 .screen2img {
   width: 100px;
@@ -134,6 +133,37 @@ body {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
+}
+/*screen4*/
+#screen4 {
+  text-align: center;
+}
+
+#formGift > div {
+}
+
+.row {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+.col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  text-align: left;
+}
+.col-75 {
+  float: left;
+  width: 60%;
+  margin: 0 auto;
+}
+#confirm {
+  max-width: 150px;
+  justify-content: center;
+}
+.sizeImput {
+  width: 100%;
 }
 
 /*footer*/
