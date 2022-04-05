@@ -118,6 +118,14 @@ body {
   padding-left: 90px;
 }
 
+.cardDescription {
+  display: none;
+}
+
+.price {
+  padding-left: 80px;
+}
+
 /* screen3*/
 #cardNumber {
   display: grid;

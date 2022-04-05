@@ -26,6 +26,7 @@ divPet.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
+    document.getElementById("cardPet").style.display = "block";
 });
 
 const divRoma = document.getElementById("divRoma");
@@ -35,6 +36,7 @@ divRoma.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
+    document.getElementById("cardRoma").style.display = "block";
 });
 
 const divVege = document.getElementById("divVege");
@@ -44,6 +46,7 @@ divVege.addEventListener("click" , ()=> {
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
+    document.getElementById("cardVege").style.display = "block";
 });
 
 const divGolo = document.getElementById("divGolo");
@@ -53,6 +56,7 @@ divGolo.addEventListener("click" , ()=> {
     document.getElementById("divVege").style.display = "none";
     document.getElementById("divFit").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
+    document.getElementById("cardGolo").style.display = "block";
 })
 
 const divFit = document.getElementById("divFit");
@@ -62,6 +66,7 @@ divFit.addEventListener("click" , ()=> {
     document.getElementById("divVege").style.display = "none";
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divCerve").style.display = "none";
+    document.getElementById("cardFit").style.display = "block";
 });
 
 const divCerve = document.getElementById("divCerve");
@@ -71,12 +76,18 @@ divCerve.addEventListener("click" , ()=> {
     document.getElementById("divVege").style.display = "none";
     document.getElementById("divGolo").style.display = "none";
     document.getElementById("divFit").style.display = "none";
+    document.getElementById("cardCerve").style.display = "block";
 });
 
 //Hiding Ul tag (id="cardDescription") and strong tag//
-document.getElementByClassName("cardDescription").style.display = "none";
+//for (let cardDescription of document.getElementsByClassName("cardDescription")){
+   // cardDescription.style.display="none";
+//}//
 
-
+//const selectedPet = document.getElementById("divPet");//
+//selectedPet.addEventListener("click", ()=> {//
+    //document.getElementById("cardPet").style.visibility = "visible";//
+//});//
 
 
 //screen3//
