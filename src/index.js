@@ -92,18 +92,43 @@ divCerve.addEventListener("click" , ()=> {
 
 //screen3//
 const btnValidar = document.getElementById("validar");
+const message=document.getElementById("message");
+const messageValid="Tu tarjeta es Valida";
+const messageInvalid="Tu tarjeta es Invalida";
+const inputCreditNumber=document.getElementById("number");
+inputCreditNumber.addEventListener("keyup", (event)=>{
+    //si es cualquier botón menos los dígitos de 0 al 9 ingresa al if//
+    if(event.key.match(/[^0-9]/)){
+        let noNumber =event.key.match(/[^0-9]/);
+        inputCreditNumber.value =inputCreditNumber.value.replace(noNumber,"");  
+        console.log(noNumber);          
+    }
+    //reflejando cada número ingresado
+    let lookNumber= document.getElementById("lookNumber"); 
+    const creditCardNumber =inputCreditNumber.value; 
+    lookNumber.value= creditCardNumber;
+    
+})
 btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
-    const  creditCardNumber= document.getElementById("number").value;
+    const  creditCardNumber= inputCreditNumber.value;
    if (creditCardNumber.length < 16){
-       alert("Debes ingresar correctamente el número de tu tarjeta, si la cantidad de números es menor a 16, antepone la cantidad de 0 que necesites")
+       alert("Debes ingresar correctamente el número de tu tarjeta, si la cantidad de números es menor a 16, antepone la cantidad de 0 que necesites");
    }else if(creditCardNumber.length > 16){
        alert("¡¡Te pasaste!! El máximo de números a ingresar por tarjeta es de 16")
-   } else{
-   validator.isValid(creditCardNumber)}
-  document.getElementById("screen4").style.display = "block";
+   }else{ 
+       if(validator.isValid(creditCardNumber)){
+        document.getElementById("screen4").style.display = "block"; 
+        message.replaceWith(messageValid);           
+       }else{
+        document.getElementById("screen4").style.display = "block";  
+        document.getElementById("formFinal").style.display = "none";
+       message.replaceWith(messageInvalid)
+       
+   }}}
+  
    
-});
+);
 
 
 

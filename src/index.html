@@ -17,8 +17,6 @@
       </nav>
     </header>
     <main>
-      
-
       <!--Sreen 1 -->
       <div id="screen1">  
         <div>
@@ -166,11 +164,14 @@
 
       <!--Sreen 3 -->
       <div id="screen3">
-         <!--Acá se muestra la opción seleccionada-->
+         <!--Acá se muestra la opción seleccionada del screen 2-->
           <form id="cardNumber" >
             <label for="number">Ingresa tu número de tarjeta de crédito para validarla.</label>
             <div id="inputNumber">
-            <input id = "number" type="number" required>
+            <input id = "number" type="text">
+            </div>
+            <div>
+              <input id="lookNumber" readonly="readonly">
             </div>
             <button class="button" id="validar">Validar</button>
           </form>       
@@ -178,10 +179,10 @@
 
       <!--Sreen 4 -->
       <div id="screen4">
-        <div id="message">
-        <strong>El número de tarjeta **** **** **** 9876 es valido.</strong>
+        <div id="messageFinal">
+        <strong id="message"></strong>
       </div>
-        <form>
+        <form id="formFinal">
           <div class="row">
             <div class="col-40">  
               <label  for="name">Ingresa el nombre de tu amigo</label>
