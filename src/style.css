@@ -4,50 +4,49 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
+  font-family: Arial;
+  font-size: 14px;
 }
 
-.button {
-  background-color: #a63251;
-  border: none;
-  color: wheat;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 100px;
-  margin: 0 auto;
-}
 /*barra de navegacion*/
+
 .menu {
   display: grid;
-  grid-template-columns: 40px auto;
-  background-color: #f26666;
+  grid-template-columns: 7% auto;
+  background-color: white;
   text-align: center;
   font-size: 30px;
 }
 .textNav > p {
-  margin: 5px;
-  padding: 5px;
-  color: white;
+  margin: 4px;
+  color: black;
+  padding-right: 7%;
+}
+
+#slogan {
+  font-size: 22px;
 }
 .logo {
   grid-row-start: 1;
   grid-row-end: 2;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin: 10%;
+  border-radius: 8px;
 }
-.logo img {
-  width: 50px;
-  height: 50px;
+#logo img {
+  width: 35px;
+  height: 30px;
 }
+
+.logo:hover {
+  background-color: #a5e0d54f;
+}
+
 /*screen1*/
 #screen1 {
-  background-color: #3a2740;
-  color: #f2efbb;
+  background-color: #d1f2eb;
+  color: Black;
   text-align: center;
-  min-height: 80vh;
+  height: 78vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,31 +65,63 @@ body {
   align-content: center;
 }
 
-/*screen2*/
-#question1 {
-  text-align: center;
-  font-size: 25px;
+.button {
+  cursor: pointer;
+  border: 2px solid #25a58b;
   color: black;
-  background-color: #f2efbb;
-  padding: 45px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-#question2 {
+  padding: 10px 10px;
   text-align: center;
-  font-size: 25px;
-  color: white;
-  background-color: #3a2740;
-  padding: 35px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
 }
+.button:hover {
+  background-color: #25a58b;
+  color: white;
+}
+.button:focus{
+  background-color: #61d3bc;
+  border: 2px solid #61d3bc;
+}
+/*screen1.1*/
+#flexIntro {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(235, 239, 245);
+}
+#item2 {
+  padding: 10%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+#item1{
+  width: 250%;
+}
+
+#friendsimg {
+  width: 100%;
+}
+
+/*screen2*/
+#question2 {
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #8ddece;
+margin: 0px;
+font-size: 20px;
+}
+
 /*where the flexes are*/
 .friendTypes {
   padding: 50px;
-  background-color: #f2efbb;
+  background-color: rgb(235, 239, 245);
 }
 /*3 columns*/
 .ftContainer {
@@ -99,10 +130,15 @@ body {
 /*items*/
 .ftDiv {
   width: 100%;
-  padding: 50px;
-  padding-bottom: 20px;
+  padding: 20px 10px 20px 10px;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
+  border: solid #25a58b;
+}
+.ftDiv:hover {
+  background-color: #a5e0d54f;
+  cursor: pointer;
 }
 .screen2img {
   width: 100px;
@@ -128,7 +164,7 @@ body {
 
 /* screen3*/
 #screen3 {
-  background-color: #f2efbb;
+  background-color: rgb(235, 239, 245);
 }
 
 #cardNumber {
@@ -146,7 +182,7 @@ body {
 /*screen4*/
 #screen4 {
   text-align: center;
-  background-color: #f2efbb;
+  background-color: rgb(235, 239, 245);
 }
 #message {
   padding-top: 14px;
@@ -198,8 +234,10 @@ body {
 footer {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 10px;
-  background-color: #f2a679;
+  gap: 12px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .socialMedia {
   text-align: right;
@@ -208,11 +246,7 @@ footer {
   width: 55px;
   height: 55px;
 }
-#face {
-  width: 50px;
-  height: 50px;
-}
-#wsp {
+.socialimg {
   width: 50px;
   height: 50px;
 }
