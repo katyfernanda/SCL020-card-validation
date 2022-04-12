@@ -4,18 +4,20 @@ const validator = {
     const arrayNumber = creditCardNumber.split("");
     let result= 0;
     for (let i = 0; i < arrayNumber.length; i ++){  
-      if ( i % 2 ==0){
-        if((arrayNumber[i]*2).length >1){
-          let additionDig = (arrayNumber[i]*2)-9;
-          result += additionDig;
+      if ( i % 2 == 0){
+        if((arrayNumber[i]*2).toString().length > 1){
+          let twoDig = (arrayNumber[i]*2).toString().split("");
+          let additionDig = parseInt(twoDig[0])+parseInt(twoDig[1]);
+          result += (additionDig) ;
         }else{
           let doubleDig = arrayNumber[i]*2;
-          result += doubleDig;
+          result += parseInt(doubleDig) ;
         }        
       }else{
-        result += arrayNumber[i];
+        result += parseInt(arrayNumber[i]) ;
       }
     }
+    
     if (result % 10 == 0) {
       return true;
     }else{
@@ -35,4 +37,4 @@ const validator = {
   }
 }
 
-export default validator;
+export default validator; 

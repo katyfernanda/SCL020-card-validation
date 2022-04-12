@@ -26,15 +26,13 @@ body {
 #slogan {
   font-size: 22px;
 }
-.logo {
+#logo img {
+  width: 35px;
+  height: 30px;
   grid-row-start: 1;
   grid-row-end: 2;
   margin: 10%;
   border-radius: 8px;
-}
-#logo img {
-  width: 35px;
-  height: 30px;
 }
 
 .logo:hover {
@@ -82,7 +80,7 @@ body {
   background-color: #25a58b;
   color: white;
 }
-.button:focus{
+.button:focus {
   background-color: #61d3bc;
   border: 2px solid #61d3bc;
 }
@@ -100,7 +98,7 @@ body {
   font-size: 25px;
 }
 
-#item1{
+#item1 {
   width: 250%;
 }
 
@@ -110,12 +108,12 @@ body {
 
 /*screen2*/
 #question2 {
-text-align: center;
-padding-top: 30px;
-padding-bottom: 30px;
-background-color: #8ddece;
-margin: 0px;
-font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #8ddece;
+  margin: 0px;
+  font-size: 20px;
 }
 
 /*where the flexes are*/
