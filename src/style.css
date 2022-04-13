@@ -90,6 +90,7 @@ body {
   align-items: center;
   padding: 20px;
   background-color: rgb(235, 239, 245);
+  height: 78vh;
 }
 #item2 {
   padding: 10%;
@@ -226,6 +227,20 @@ body {
 }
 .sizeImput {
   width: 100%;
+}
+/*screen 5*/
+#screen5 {
+  text-align: center;
+}
+#container5 {
+  text-align: center;
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logoCheck {
+  width: 20%;
 }
 
 /*footer*/

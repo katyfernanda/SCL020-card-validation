@@ -6,6 +6,7 @@ document.getElementById("screen4").style.display = "none";
 document.getElementById("logo").style.visibility = "hidden";
 document.getElementById("screenIntro").style.display = "none";
 document.getElementById("clean").style.visibility = "hidden";
+document.getElementById("screen5").style.display = "none";
 
 
 //screen1//
@@ -172,11 +173,18 @@ btnValidar.addEventListener("click", (event)=> {
             lookNumber.value = "";
             message.innerHTML = messageNothing;
             clean.style.visibility = "hidden";
-       }
-       );
-       
+       });     
    }}}  
 );
+const confirm = document.getElementById("confirm");
+confirm.addEventListener("click", (event)=>{
+    event.preventDefault();
+    document.getElementById("screen2").style.display = "none";
+    document.getElementById("screen3").style.display = "none";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "block";
+
+})
 
    
 
