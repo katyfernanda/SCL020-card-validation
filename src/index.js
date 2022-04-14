@@ -182,6 +182,7 @@ confirm.addEventListener("click", (event)=>{
     document.getElementById("screen2").style.display = "none";
     document.getElementById("screen3").style.display = "none";
     document.getElementById("screen4").style.display = "none";
+    document.getElementById("logo").style.visibility = "hidden";
     document.getElementById("screen5").style.display = "block";
 
 })
