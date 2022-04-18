@@ -222,9 +222,9 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto: Mayores de 18 años.
+* Quiénes son los principales usuarios de producto: Mayores de 18 años, personas que no tienen tiempo para comprar un regalo a su amigo.
 * Cuáles son los objetivos de estos usuarios en relación con tu producto: Comprar un regalo en base a la caracteristica de su amigo u otro.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas: Por medio de la caricaturizacion de una caulidad de la persona a quien se le hace el regalo.
+* Cómo crees que el producto que estás creando está resolviendo sus problemas: Por medio de la caricaturizacion de una caulidad de la persona a quien se le hace el regalo, el usuario puede elegir el pack que mas se adecue.
 
 ### Interfaz de usuario (UI)
 
@@ -257,17 +257,18 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto: Card Validation "El mejor regalo para tu mejor amigo"
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto: El cliente tiene la necesidad de  hacer un regalo de manera rapida por lo que puede entrar a la pagina obteniendo una caracteristica de su amigo puede elegir un regalo acorde y divertido.
-* La imagen final de tu proyecto.
+* Titulo del proyecto: Card Validation "El mejor regalo para tu mejor amigo"
+* Resumen Proyecto: El cliente tiene la necesidad de  hacer un regalo de manera rapida, por lo que puede entrar a la pagina y en base a la caricaturizacion de una caracteristica de su amigo puede elegir un regalo acorde y divertido.
+* La imagen final de tu proyecto. <img src= "/src/png/finalAltoNivel.PNG">
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto: Mayores de 18 años queno tengan el suficiente tiempo de pensar en un regalo.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios: simplifica la busqueda del regalo ideal segun la caracteristica o cualidad de su amigo.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar. 
-  5. Imagen del prototipo final.
+  1. Usuarios y los objetivos en relación con el producto: Mayores de 18 años que no tengan el suficiente tiempo para pensar en un regalo.
+  2. Cómo el producto soluciona los problemas/necesidades de dichos usuarios: simplifica la busqueda del regalo ideal segun la caricaturizacion de una caracteristica o cualidad de su amigo.
+  3. Foto de tu primer prototipo en papel. <img src="/src/png/primerPrototipoBajoNivel.png">
+  4. Feedbacks recibidos: En el primer feedback recibido nos indicaron que no se entendia el sentido de la pagina, por lo que se nos ocurrio crear una vista a modo de introduccion.
+  <img src= "/src/png/vistaDeIntroduccion.png">
+  En el siguiente feedback nos indicaron que nuestra paleta de colores era muy de "alerta" y podia estresar al cliente, ya que es una persona que no tiene mucho tiempo, para solucionarlo buscamos una paleta de colores mas suave.
+  <img src= "/src/png/primerPrototipoAltoNivel.PNG">
+  5. Imagen del prototipo final. <img src= "/src/png/finalAltoNivel.PNG">
 
 #### Visualmente (HTML y CSS)
 
