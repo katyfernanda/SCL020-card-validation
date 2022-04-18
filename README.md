@@ -8,7 +8,7 @@
 
 ##### `README.md`
 
-Debe contener lo siguiente:
+
 
 * Titulo del proyecto: Card Validation "El mejor regalo para tu mejor amigo"
 * Resumen Proyecto: El cliente tiene la necesidad de  hacer un regalo de manera rapida, por lo que puede entrar a la pagina y en base a la caricaturizacion de una caracteristica de su amigo puede elegir un regalo acorde y divertido.
