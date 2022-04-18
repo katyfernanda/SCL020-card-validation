@@ -132,22 +132,20 @@ back.addEventListener("click" , ()=> {
 //screen3//
 
 const btnValidar = document.getElementById("validar");
-const message=document.getElementById("message");
-const messageValid="Tu tarjeta es Valida";
-const messageInvalid="Tu tarjeta es Invalida";
+const message = document.getElementById("message");
+const messageValid = "Tu tarjeta es Valida";
+const messageInvalid = "Tu tarjeta es Invalida";
 const messageNothing = " ";
-const inputCreditNumber=document.getElementById("number");
-let lookNumber= document.getElementById("lookNumber"); 
-inputCreditNumber.addEventListener("keyup", (event) => {
 
-    //si es cualquier botón menos los dígitos de 0 al 9 ingresa al if//  
+const inputCreditNumber = document.getElementById("number");
+let lookNumber = document.getElementById("lookNumber");
+inputCreditNumber.addEventListener("keyup", (event) => {
     if(event.key && event.key.match(/[^0-9]/)){
         let noNumber = event.key.match(/[^0-9]/);
-        inputCreditNumber.value =inputCreditNumber.value.replace(noNumber,"");
+        inputCreditNumber.value = inputCreditNumber.value.replace(noNumber,"");
     }
    // console.log("no match "+ inputCreditNumber.value);//
     //reflejando cada número ingresado//
-   
     lookNumber.value = inputCreditNumber.value;
     //console.log(secretNumbers);//
     lookNumber.value =  validator.maskify(inputCreditNumber.value);    
@@ -155,7 +153,7 @@ inputCreditNumber.addEventListener("keyup", (event) => {
 btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
     //inputCreditNumber.value = "1234567891234567";
-    const  creditCardNumber= inputCreditNumber.value;
+    const creditCardNumber = inputCreditNumber.value;
    if (creditCardNumber.length < 16){
        alert("Debes ingresar correctamente el número de tu tarjeta, si la cantidad de números es menor a 16, antepone la cantidad de 0 que necesites");
    }else if(creditCardNumber.length > 16){
@@ -170,7 +168,7 @@ btnValidar.addEventListener("click", (event)=> {
         document.getElementById("screen4").style.display = "block";  
         document.getElementById("formFinal").style.display = "none";
         document.getElementById("clean").style.visibility = "visible";
-        message.innerHTML =messageInvalid;
+        message.innerHTML = messageInvalid;
        const clean = document.getElementById("clean");
        clean.addEventListener("click", (event)=>{
             event.preventDefault();
@@ -191,10 +189,4 @@ confirm.addEventListener("click", (event)=>{
     document.getElementById("screen5").style.display = "block";
 
 })
-
-   
-
-
-
-
 
