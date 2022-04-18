@@ -15,8 +15,8 @@
 * La imagen final de tu proyecto.
 
 
-<img src= "/src/png/screen1.png">
 
+![alt text](png/screen1.png)
 
 * Investigación UX:
   1. Usuarios y los objetivos en relación con el producto: Mayores de 18 años que no tengan el suficiente tiempo para pensar en un regalo.
