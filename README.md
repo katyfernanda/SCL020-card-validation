@@ -61,10 +61,10 @@
   5. Imagen del prototipo final.  
   
   
-  <img src= "/src/png/prototipoFinal.PNG">
+  <img src= "/src/png/prototipoFinal.png">
 
 
   6. Utilizamos herramientas como trello, draw.io, jamboard y figma (https://www.figma.com/file/q2IGD1tOoDDqTGsdrWHgKK/Untitled?node-id=0%3A1).
   
   
-  <img src= "/src/png/trello.PNG">
+  <img src= "/src/png/trello.png">
