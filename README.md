@@ -30,7 +30,8 @@
   4. Feedbacks recibidos: En el primer feedback recibido nos indicaron que no se entendia el sentido de la pagina, por lo que se nos ocurrio crear una vista a modo de introduccion.  <img src= "/src/png/screen1.1.png">
 
 
-  En el siguiente feedback nos indicaron que nuestra paleta de colores era muy de "alerta" y podia estresar al cliente, ya que es una persona que no tiene mucho tiempo, para solucionarlo buscamos una paleta de colores mas suave.  <img src= "/src/png/primerPrototipoAltoNivel.PNG">. <img src= "/src/png/paletaSuave.png">
+  En el siguiente feedback nos indicaron que nuestra paleta de colores era muy de "alerta" y podia estresar al cliente, ya que es una persona que no tiene mucho tiempo, para solucionarlo buscamos una paleta de colores mas suave.  <img src= "/src/png/primerPrototipoAltoNivel.PNG">
+  <img src= "/src/png/paletaSuave.png">
 
 
   El ultimo feedback muy importante fue en cuanto a la utilizacion de un metodo para poder realizar validation.isvalid() ya que este metodo iba a hacer que nuestro trabajo fuera mas largo, por lo que utilizamos condicionales.  <img src= "/src/png/algoritmoDiagramaIsValid.png">
