@@ -22,7 +22,9 @@
   2. Cómo el producto soluciona los problemas/necesidades de dichos usuarios: simplifica la busqueda del regalo ideal segun la caricaturizacion de una caracteristica o cualidad de su amigo.  <img src= "/src/png/screen2.png">
 
 
-  3. Foto de tu primer prototipo en papel.  <img src="/src/png/primerPrototipoBajoNivel.png">  <img src="/src/png/2primerPrototipoBajoNivel.png">
+  3. Foto de tu primer prototipo en papel.  <img src="/src/png/primerPrototipoBajoNivel.png"> 
+  
+   <img src="/src/png/2primerPrototipoBajoNivel.png">
 
 
   4. Feedbacks recibidos: En el primer feedback recibido nos indicaron que no se entendia el sentido de la pagina, por lo que se nos ocurrio crear una vista a modo de introduccion.  <img src= "/src/png/screen1.1.png">
