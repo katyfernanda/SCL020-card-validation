@@ -7,9 +7,7 @@ body {
   font-family: Arial;
   font-size: 14px;
 }
-
 /*barra de navegacion*/
-
 .menu {
   display: grid;
   grid-template-columns: 7% auto;
@@ -22,7 +20,6 @@ body {
   color: black;
   padding-right: 7%;
 }
-
 #slogan {
   font-size: 22px;
 }
@@ -34,11 +31,9 @@ body {
   margin: 10%;
   border-radius: 8px;
 }
-
 .logo:hover {
   background-color: #a5e0d54f;
 }
-
 /*screen1*/
 #screen1 {
   background-color: #d1f2eb;
@@ -52,7 +47,6 @@ body {
 #screen1 > h1 {
   margin-top: 0px;
 }
-
 #filterAge {
   display: flex;
   margin: 0 auto;
@@ -62,7 +56,6 @@ body {
   width: 50%;
   align-content: center;
 }
-
 .button {
   cursor: pointer;
   border: 2px solid #25a58b;
@@ -99,15 +92,12 @@ body {
   line-height: 30px;
   font-size: 25px;
 }
-
 #item1 {
   width: 250%;
 }
-
 #friendsimg {
   width: 100%;
 }
-
 /*screen2*/
 #question2 {
   text-align: center;
@@ -117,7 +107,6 @@ body {
   margin: 0px;
   font-size: 20px;
 }
-
 /*where the flexes are*/
 .friendTypes {
   padding: 40px;
@@ -148,25 +137,20 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .titleCard {
   text-align: center;
 }
-
 .price {
   text-align: center;
 }
-
 .divCardDescription {
   display: flex;
   justify-content: center;
 }
-
 /* screen3*/
 #screen3 {
   background-color: rgb(235, 239, 245);
 }
-
 #cardNumber {
   display: grid;
   grid-template-columns: auto;
@@ -198,7 +182,6 @@ body {
   display: flex;
   padding: 10px;
 }
-
 .col-40 {
   width: 40%;
   margin-top: 6px;
@@ -208,7 +191,6 @@ body {
 .col-60 {
   width: 60%;
 }
-
 @media (max-width: 600px) {
   .row {
     flex-direction: column;
@@ -222,7 +204,6 @@ body {
     width: 100%;
   }
 }
-
 #confirm {
   max-width: 150px;
   justify-content: center;
@@ -237,7 +218,7 @@ body {
   height: 78vh;
   font-size: 18px;
 }
-#flex5{
+#flex5 {
   display: flex;
   flex-direction: column;
   padding: 39px;
@@ -253,7 +234,6 @@ footer {
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 0;
 }
 .socialMedia {
   text-align: right;

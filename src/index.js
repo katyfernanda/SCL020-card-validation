@@ -122,6 +122,11 @@ back.addEventListener("click" , ()=> {
     document.getElementById("cardCerve").style.display = "none";
     document.getElementById("logo").style.visibility = "hidden";
     document.getElementById("screen3").style.display = "none";
+    inputCreditNumber.value = "";
+    lookNumber.value = "";
+    message.innerHTML = messageNothing;
+    document.getElementById("clean").style.visibility = "hidden";
+    document.getElementById("screen4").style.display = "none";
 });
 
 //screen3//
