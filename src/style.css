@@ -166,12 +166,16 @@ body {
   padding: 20px;
 }
 /*screen4*/
+.color-red {
+  color: red;
+}
 #screen4 {
   text-align: center;
   background-color: rgb(235, 239, 245);
 }
 #message {
   padding-bottom: 30px;
+  padding-top: 20px;
 }
 .sizeImput {
   padding: 8px;

@@ -134,21 +134,21 @@ back.addEventListener("click" , ()=> {
 const btnValidar = document.getElementById("validar");
 const message = document.getElementById("message");
 const messageValid = "Tu tarjeta es Valida";
-const messageInvalid = "Tu tarjeta es Invalida";
+const messageInvalid = "<span class='color-red'>Tu tarjeta es Inválida</span>";
 const messageNothing = " ";
 
 const inputCreditNumber = document.getElementById("number");
 let lookNumber = document.getElementById("lookNumber");
 inputCreditNumber.addEventListener("keyup", (event) => {
+    //console.log(event)//
+    //console.log(event.code)//
     if(event.key && event.key.match(/[^0-9]/)){
         let noNumber = event.key.match(/[^0-9]/);
         inputCreditNumber.value = inputCreditNumber.value.replace(noNumber,"");
     }
    // console.log("no match "+ inputCreditNumber.value);//
-    //reflejando cada número ingresado//
-    lookNumber.value = inputCreditNumber.value;
-    //console.log(secretNumbers);//
-    lookNumber.value =  validator.maskify(inputCreditNumber.value);    
+    //reflejando cada número ingresado//         
+    lookNumber.value = validator.maskify(inputCreditNumber.value);
 });
 btnValidar.addEventListener("click", (event)=> { 
     event.preventDefault();
@@ -162,7 +162,7 @@ btnValidar.addEventListener("click", (event)=> {
        if(validator.isValid(creditCardNumber)){
         document.getElementById("screen4").style.display = "block"; 
         document.getElementById("formFinal").style.display = "block";
-        inputCreditNumber.setAttribute("readonly","readonly")
+        inputCreditNumber.setAttribute("readonly","readonly");
         message.innerHTML = messageValid;           
        }else{
         document.getElementById("screen4").style.display = "block";  
