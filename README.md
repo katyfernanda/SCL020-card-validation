@@ -8,7 +8,7 @@
 
 ##### `README.md`
 
-Debe contener lo siguiente:
+
 
 * Titulo del proyecto: Card Validation "El mejor regalo para tu mejor amigo"
 * Resumen Proyecto: El cliente tiene la necesidad de  hacer un regalo de manera rapida, por lo que puede entrar a la pagina y en base a la caricaturizacion de una caracteristica de su amigo puede elegir un regalo acorde y divertido.
@@ -28,10 +28,13 @@ Debe contener lo siguiente:
   <img src= "/src/png/screen2.png">
 
 
-  3. Foto de tu primer prototipo en papel.
+  3. Foto de tu primer prototipo en papel.  
   
-
-  <img src="/src/png/primerPrototipoBajoNivel.png"><img src="/src/png/2primerPrototipoBajoNivel.png">
+  
+  <img src="/src/png/primerPrototipoBajoNivel.png"> 
+  
+  
+  <img src="/src/png/2primerPrototipoBajoNivel.png">
 
 
   4. Feedbacks recibidos: En el primer feedback recibido nos indicaron que no se entendia el sentido de la pagina, por lo que se nos ocurrio crear una vista a modo de introduccion.
@@ -43,7 +46,10 @@ Debe contener lo siguiente:
   En el siguiente feedback nos indicaron que nuestra paleta de colores era muy de "alerta" y podia estresar al cliente, ya que es una persona que no tiene mucho tiempo, para solucionarlo buscamos una paleta de colores mas suave.
 
 
-  <img src= "/src/png/primerPrototipoAltoNivel.PNG"><img src= "/src/png/paletaSuave.png">
+  <img src= "/src/png/primerPrototipoAltoNivel.PNG">
+  
+  
+  <img src= "/src/png/paletaSuave.png">
 
 
   El ultimo feedback muy importante fue en cuanto a la utilizacion de un metodo para poder realizar validation.isvalid() ya que este metodo iba a hacer que nuestro trabajo fuera mas largo, por lo que utilizamos condicionales
@@ -52,7 +58,10 @@ Debe contener lo siguiente:
   <img src= "/src/png/algoritmoDiagramaIsValid.png">
 
 
-  5. Imagen del prototipo final. <img src= "/src/png/prototipoFinal.PNG">
+  5. Imagen del prototipo final.  
+  
+  
+  <img src= "/src/png/prototipoFinal.PNG">
 
 
   6. Utilizamos herramientas como trello, draw.io, jamboard y figma (https://www.figma.com/file/q2IGD1tOoDDqTGsdrWHgKK/Untitled?node-id=0%3A1).
