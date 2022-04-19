@@ -11,11 +11,11 @@ const validator = {
           //console.log(twoDig)
           let additionDig = parseInt(twoDig[0])+parseInt(twoDig[1]);
           //console.log(additionDig)
-          result += (additionDig) ;
+          result += additionDig;
         }else{
           let doubleDig = arrayNumber[i]*2;
-          //console.log(doubleDig)
-          result += parseInt(doubleDig) ;
+          //console.log(typeof doubleDig)
+          result += doubleDig ;
         }        
       }else{
         result += parseInt(arrayNumber[i]) ;
