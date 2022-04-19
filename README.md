@@ -15,7 +15,7 @@
 * La imagen final de tu proyecto.
 
 
-<img src= "/src/png/screen1.png">
+ <img src= "/src/png/screen1.png">
 
 
 * Investigación UX:
