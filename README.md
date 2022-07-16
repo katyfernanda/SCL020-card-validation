@@ -68,3 +68,6 @@
   
   
   <img src= "/src/png/trello.png">
+  
+  
+  Link https://katyfernanda.github.io/SCL020-card-validation/
